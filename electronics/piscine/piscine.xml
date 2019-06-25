@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\sbrissy\Documents\workspace-perso\piscine\piscine\piscine.sch</source>
+    <date>25/06/2019 05:52:11</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>piscine.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/alim/" tstamps="/5D1B4FAE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>alim.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/-5v/" tstamps="/5D1B533E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>-5v.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM2662M_NOPB</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2662.pdf</datasheet>
+      <fields>
+        <field name="Description">200mA switched capacitor voltage converter</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM2662M/NOPB</field>
+        <field name="Mouser Part Number">926-LM2662M/NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=926-LM2662M%2FNOPB</field>
+      </fields>
+      <libsource lib="mouser" part="LM2662M_NOPB" description="200mA switched capacitor voltage converter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D10DC3F</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>TL032CD</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl032.pdf</datasheet>
+      <fields>
+        <field name="Description">Dual Enhanced JFET Low-Power Precision Operational Amplifier</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TL032CD</field>
+        <field name="Mouser Part Number">595-TL032CD</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-TL032CD</field>
+      </fields>
+      <libsource lib="mouser" part="TL032CD" description="Dual Enhanced JFET Low-Power Precision Operational Amplifier"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D10E974</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D10F477</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>CP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D11434F</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ESP-WROOM-02_(4MB)</value>
+      <footprint>ESPWROOM024MB</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/ESP-WROOM-02 (4MB).pdf</datasheet>
+      <fields>
+        <field name="Description">WiFi Modules (802.11) SMD Module, ESP8266EX, 32Mbits SPI flash, UART Mode</field>
+        <field name="Height">2.9</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP-WROOM-02 (4MB)</field>
+        <field name="Mouser Part Number">356-ESPWROOM-024MB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=356-ESPWROOM-024MB</field>
+      </fields>
+      <libsource lib="mouser" part="ESP-WROOM-02_(4MB)" description="WiFi Modules (802.11) SMD Module, ESP8266EX, 32Mbits SPI flash, UART Mode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D116FFC</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ADS1115IDGS</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ads1113.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADS1115IDGS" description="Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D118C08</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>RZ03-1A4-D005</value>
+      <footprint>RZ03-1A4</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/RZ03-1A4-D005.pdf</datasheet>
+      <fields>
+        <field name="Description">TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">RZ03-1A4-D005</field>
+        <field name="Mouser Part Number">655-RZ03-1A4-D005</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=655-RZ03-1A4-D005</field>
+      </fields>
+      <libsource lib="mouser" part="RZ03-1A4-D005" description="TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D119F6D</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>RZ03-1A4-D005</value>
+      <footprint>RZ03-1A4</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/RZ03-1A4-D005.pdf</datasheet>
+      <fields>
+        <field name="Description">TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">RZ03-1A4-D005</field>
+        <field name="Mouser Part Number">655-RZ03-1A4-D005</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=655-RZ03-1A4-D005</field>
+      </fields>
+      <libsource lib="mouser" part="RZ03-1A4-D005" description="TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D11F339</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>RZ03-1A4-D005</value>
+      <footprint>RZ03-1A4</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/RZ03-1A4-D005.pdf</datasheet>
+      <fields>
+        <field name="Description">TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">RZ03-1A4-D005</field>
+        <field name="Mouser Part Number">655-RZ03-1A4-D005</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=655-RZ03-1A4-D005</field>
+      </fields>
+      <libsource lib="mouser" part="RZ03-1A4-D005" description="TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D11FB8D</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>RZ03-1A4-D005</value>
+      <footprint>RZ03-1A4</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/RZ03-1A4-D005.pdf</datasheet>
+      <fields>
+        <field name="Description">TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">RZ03-1A4-D005</field>
+        <field name="Mouser Part Number">655-RZ03-1A4-D005</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=655-RZ03-1A4-D005</field>
+      </fields>
+      <libsource lib="mouser" part="RZ03-1A4-D005" description="TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1206D5</tstamp>
+    </comp>
+    <comp ref="K5">
+      <value>RZ03-1A4-D005</value>
+      <footprint>RZ03-1A4</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/RZ03-1A4-D005.pdf</datasheet>
+      <fields>
+        <field name="Description">TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">RZ03-1A4-D005</field>
+        <field name="Mouser Part Number">655-RZ03-1A4-D005</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=655-RZ03-1A4-D005</field>
+      </fields>
+      <libsource lib="mouser" part="RZ03-1A4-D005" description="TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D12103F</tstamp>
+    </comp>
+    <comp ref="K6">
+      <value>RZ03-1A4-D005</value>
+      <footprint>RZ03-1A4</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/RZ03-1A4-D005.pdf</datasheet>
+      <fields>
+        <field name="Description">TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">RZ03-1A4-D005</field>
+        <field name="Mouser Part Number">655-RZ03-1A4-D005</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=655-RZ03-1A4-D005</field>
+      </fields>
+      <libsource lib="mouser" part="RZ03-1A4-D005" description="TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1218D9</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>1725753</value>
+      <footprint>SHDR12W90P0X254_1X12_3094X620X850P</footprint>
+      <datasheet>https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725753</datasheet>
+      <fields>
+        <field name="Description">Terminal block PCB 12 Phoenix Contact COMBICON MPT Series 2.54mm Pitch Straight PCB Terminal Block with Screw Termination, Through Hole</field>
+        <field name="Height">8.5</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1725753</field>
+        <field name="Mouser Part Number">651-1725753</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=651-1725753</field>
+      </fields>
+      <libsource lib="mouser" part="1725753" description="Terminal block PCB 12 Phoenix Contact COMBICON MPT Series 2.54mm Pitch Straight PCB Terminal Block with Screw Termination, Through Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1299A6</tstamp>
+    </comp>
+    <comp ref="PS1">
+      <value>HLK-PM01</value>
+      <footprint>Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx</footprint>
+      <datasheet>http://www.hlktech.net/product_detail.php?ProId=54</datasheet>
+      <libsource lib="Converter_ACDC" part="HLK-PM01" description="Compact AC/DC board mount power module 3W 5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D12BD8A</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>1725669</value>
+      <footprint>1725669</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/1725669.pdf</datasheet>
+      <fields>
+        <field name="Description">3 way PCB vertical mount terminal,2.54mm 3 way PCB vertical mount terminal,2.54mm</field>
+        <field name="Height">8.5</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1725669</field>
+        <field name="Mouser Part Number">651-1725669</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=651-1725669</field>
+      </fields>
+      <libsource lib="mouser" part="1725669" description="3 way PCB vertical mount terminal,2.54mm 3 way PCB vertical mount terminal,2.54mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D12CD6F</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_Coaxial</value>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D12F347</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_Coaxial</value>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1305E6</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D13C49D</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>CP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D13CB48</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D13D59E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D13D9B9</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D14D1C8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D150A14</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D15BA4E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D15FD7E</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MDC3105LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MDC3105LT1G.pdf</datasheet>
+      <fields>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MDC3105LT1G</field>
+        <field name="Mouser Part Number">863-MDC3105LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-MDC3105LT1G</field>
+      </fields>
+      <libsource lib="mouser" part="MDC3105LT1G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D161B50</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>0R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1E17E9</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D202246</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2029DA</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>CP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D203304</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D258066</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D26B06E</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_RST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D280AB8</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_PROG</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D281BF2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_ADC" part="ADS1015IDGS">
+      <aliases>
+        <alias>ADS1115IDGS</alias>
+      </aliases>
+      <description>Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ads1015.pdf</docs>
+      <footprints>
+        <fp>TSSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1015IDGS</field>
+        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT/RDY" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="BiDi"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_ACDC" part="HLK-PM01">
+      <aliases>
+        <alias>HLK-PM03</alias>
+        <alias>HLK-PM12</alias>
+        <alias>HLK-PM24</alias>
+      </aliases>
+      <description>Compact AC/DC board mount power module 3W 5V</description>
+      <docs>http://www.hlktech.net/product_detail.php?ProId=54</docs>
+      <footprints>
+        <fp>Converter*ACDC*HiLink*HLK?PM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">HLK-PM01</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC/L" type="power_in"/>
+        <pin num="2" name="AC/N" type="power_in"/>
+        <pin num="3" name="-Vout" type="power_out"/>
+        <pin num="4" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mouser" part="1725669">
+      <description>3 way PCB vertical mount terminal,2.54mm 3 way PCB vertical mount terminal,2.54mm</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/1725669.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1725669</field>
+        <field name="Footprint">1725669</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/1725669.pdf</field>
+        <field name="Description">3 way PCB vertical mount terminal,2.54mm 3 way PCB vertical mount terminal,2.54mm</field>
+        <field name="Height">8.5</field>
+        <field name="Mouser Part Number">651-1725669</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=651-1725669</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1725669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="mouser" part="1725753">
+      <description>Terminal block PCB 12 Phoenix Contact COMBICON MPT Series 2.54mm Pitch Straight PCB Terminal Block with Screw Termination, Through Hole</description>
+      <docs>https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725753</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1725753</field>
+        <field name="Footprint">SHDR12W90P0X254_1X12_3094X620X850P</field>
+        <field name="Datasheet">https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725753</field>
+        <field name="Description">Terminal block PCB 12 Phoenix Contact COMBICON MPT Series 2.54mm Pitch Straight PCB Terminal Block with Screw Termination, Through Hole</field>
+        <field name="Height">8.5</field>
+        <field name="Mouser Part Number">651-1725753</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=651-1725753</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1725753</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+        <pin num="9" name="9" type="BiDi"/>
+        <pin num="10" name="10" type="BiDi"/>
+        <pin num="11" name="11" type="BiDi"/>
+        <pin num="12" name="12" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="mouser" part="ESP-WROOM-02_(4MB)">
+      <description>WiFi Modules (802.11) SMD Module, ESP8266EX, 32Mbits SPI flash, UART Mode</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/ESP-WROOM-02 (4MB).pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ESP-WROOM-02_(4MB)</field>
+        <field name="Footprint">ESPWROOM024MB</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/ESP-WROOM-02 (4MB).pdf</field>
+        <field name="Description">WiFi Modules (802.11) SMD Module, ESP8266EX, 32Mbits SPI flash, UART Mode</field>
+        <field name="Height">2.9</field>
+        <field name="Mouser Part Number">356-ESPWROOM-024MB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=356-ESPWROOM-024MB</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP-WROOM-02 (4MB)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="BiDi"/>
+        <pin num="2" name="EN" type="BiDi"/>
+        <pin num="3" name="IO14" type="BiDi"/>
+        <pin num="4" name="IO12" type="BiDi"/>
+        <pin num="5" name="IO13" type="BiDi"/>
+        <pin num="6" name="IO15" type="BiDi"/>
+        <pin num="7" name="IO2" type="BiDi"/>
+        <pin num="8" name="IO0" type="BiDi"/>
+        <pin num="9" name="GND_1" type="BiDi"/>
+        <pin num="10" name="IO4" type="BiDi"/>
+        <pin num="11" name="RXD" type="BiDi"/>
+        <pin num="12" name="TXD" type="BiDi"/>
+        <pin num="13" name="GND_2" type="BiDi"/>
+        <pin num="14" name="IO5" type="BiDi"/>
+        <pin num="15" name="RST" type="BiDi"/>
+        <pin num="16" name="TOUT" type="BiDi"/>
+        <pin num="17" name="IO16" type="BiDi"/>
+        <pin num="18" name="GND_3" type="BiDi"/>
+        <pin num="19" name="GND_4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="mouser" part="LM2662M_NOPB">
+      <description>200mA switched capacitor voltage converter</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2662.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LM2662M_NOPB</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2662.pdf</field>
+        <field name="Description">200mA switched capacitor voltage converter</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">926-LM2662M/NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=926-LM2662M%2FNOPB</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM2662M/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FC" type="BiDi"/>
+        <pin num="2" name="CAP+" type="BiDi"/>
+        <pin num="3" name="GND" type="BiDi"/>
+        <pin num="4" name="CAP-" type="BiDi"/>
+        <pin num="5" name="OUT" type="BiDi"/>
+        <pin num="6" name="LV" type="BiDi"/>
+        <pin num="7" name="OSC" type="BiDi"/>
+        <pin num="8" name="V+" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="mouser" part="MDC3105LT1G">
+      <docs>https://componentsearchengine.com/Datasheets/1/MDC3105LT1G.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MDC3105LT1G</field>
+        <field name="Footprint">SOT96P237X111-3N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/MDC3105LT1G.pdf</field>
+        <field name="Height">1.11</field>
+        <field name="Mouser Part Number">863-MDC3105LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-MDC3105LT1G</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MDC3105LT1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="BiDi"/>
+        <pin num="2" name="E" type="BiDi"/>
+        <pin num="3" name="C" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="mouser" part="RZ03-1A4-D005">
+      <description>TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/RZ03-1A4-D005.pdf</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">RZ03-1A4-D005</field>
+        <field name="Footprint">RZ03-1A4</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/RZ03-1A4-D005.pdf</field>
+        <field name="Description">TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A</field>
+        <field name="Mouser Part Number">655-RZ03-1A4-D005</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=655-RZ03-1A4-D005</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">RZ03-1A4-D005</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="BiDi"/>
+        <pin num="2" name="11_1" type="BiDi"/>
+        <pin num="3" name="14_1" type="BiDi"/>
+        <pin num="4" name="14_2" type="BiDi"/>
+        <pin num="5" name="11_2" type="BiDi"/>
+        <pin num="6" name="A2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="mouser" part="TL032CD">
+      <description>Dual Enhanced JFET Low-Power Precision Operational Amplifier</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl032.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TL032CD</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl032.pdf</field>
+        <field name="Description">Dual Enhanced JFET Low-Power Precision Operational Amplifier</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">595-TL032CD</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-TL032CD</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TL032CD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1OUT" type="BiDi"/>
+        <pin num="2" name="1IN-" type="BiDi"/>
+        <pin num="3" name="1IN+" type="BiDi"/>
+        <pin num="4" name="VCC-" type="BiDi"/>
+        <pin num="5" name="2IN+" type="BiDi"/>
+        <pin num="6" name="2IN-" type="BiDi"/>
+        <pin num="7" name="2OUT" type="BiDi"/>
+        <pin num="8" name="VCC+" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_ADC">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Analog_ADC.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Converter_ACDC">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Converter_ACDC.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="mouser">
+      <uri>C:\Users\sbrissy\Documents\kicad_mouser\SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(K1-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="2" name="GPIO-Pool-Motor">
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="PS1" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="U2" pin="8"/>
+      <node ref="K1" pin="6"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="Q1" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="IC1" pin="19"/>
+      <node ref="IC1" pin="18"/>
+      <node ref="C7" pin="1"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="PS1" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(IC2-Pad6)">
+      <node ref="R3" pin="1"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="6" name="ORP">
+      <node ref="U2" pin="4"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="7" name="Pool-Motor-Sw2">
+      <node ref="J1" pin="2"/>
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="PS1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad3)">
+      <node ref="PS1" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="10" name="Pool-Motor-Sw1">
+      <node ref="K1" pin="5"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="11" name="sda">
+      <node ref="U2" pin="9"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="12" name="Net-(IC1-Pad6)">
+      <node ref="R6" pin="1"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="13" name="Net-(C10-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="14" name="scl">
+      <node ref="U2" pin="10"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="15" name="+3V3">
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="16" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad15)">
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="22" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="23" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="24" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="25" name="Net-(IC1-Pad11)">
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="26" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="27" name="Net-(IC1-Pad16)">
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="28" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="29" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="30" name="-5V">
+      <node ref="C7" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="32" name="Net-(K1-Pad3)">
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="33" name="Net-(K1-Pad2)">
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="35" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="36" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="37" name="Net-(IC1-Pad17)">
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="38" name="Net-(IC2-Pad3)">
+      <node ref="J3" pin="1"/>
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="39" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(C6-Pad1)">
+      <node ref="IC2" pin="1"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="42" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="43" name="Net-(K3-Pad1)">
+      <node ref="K3" pin="1"/>
+    </net>
+    <net code="44" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="45" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="46" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="47" name="Net-(K2-Pad5)">
+      <node ref="K2" pin="5"/>
+    </net>
+    <net code="48" name="Net-(K5-Pad3)">
+      <node ref="K5" pin="3"/>
+    </net>
+    <net code="49" name="Net-(K5-Pad2)">
+      <node ref="K5" pin="2"/>
+    </net>
+    <net code="50" name="Net-(K5-Pad1)">
+      <node ref="K5" pin="1"/>
+    </net>
+    <net code="51" name="Net-(K4-Pad6)">
+      <node ref="K4" pin="6"/>
+    </net>
+    <net code="52" name="Net-(K4-Pad5)">
+      <node ref="K4" pin="5"/>
+    </net>
+    <net code="53" name="Net-(K4-Pad4)">
+      <node ref="K4" pin="4"/>
+    </net>
+    <net code="54" name="Net-(K4-Pad3)">
+      <node ref="K4" pin="3"/>
+    </net>
+    <net code="55" name="Net-(K4-Pad2)">
+      <node ref="K4" pin="2"/>
+    </net>
+    <net code="56" name="Net-(K4-Pad1)">
+      <node ref="K4" pin="1"/>
+    </net>
+    <net code="57" name="Net-(K2-Pad6)">
+      <node ref="K2" pin="6"/>
+    </net>
+    <net code="58" name="Net-(K5-Pad4)">
+      <node ref="K5" pin="4"/>
+    </net>
+    <net code="59" name="Net-(K2-Pad4)">
+      <node ref="K2" pin="4"/>
+    </net>
+    <net code="60" name="Net-(K2-Pad3)">
+      <node ref="K2" pin="3"/>
+    </net>
+    <net code="61" name="Net-(K2-Pad2)">
+      <node ref="K2" pin="2"/>
+    </net>
+    <net code="62" name="Net-(K2-Pad1)">
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="63" name="Net-(K3-Pad6)">
+      <node ref="K3" pin="6"/>
+    </net>
+    <net code="64" name="Net-(K3-Pad5)">
+      <node ref="K3" pin="5"/>
+    </net>
+    <net code="65" name="Net-(K3-Pad4)">
+      <node ref="K3" pin="4"/>
+    </net>
+    <net code="66" name="Net-(K3-Pad3)">
+      <node ref="K3" pin="3"/>
+    </net>
+    <net code="67" name="Net-(K3-Pad2)">
+      <node ref="K3" pin="2"/>
+    </net>
+    <net code="68" name="Net-(J1-Pad11)">
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="69" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="70" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="71" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="72" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="73" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="74" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="75" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="76" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="77" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="78" name="Net-(K6-Pad6)">
+      <node ref="K6" pin="6"/>
+    </net>
+    <net code="79" name="Net-(K6-Pad5)">
+      <node ref="K6" pin="5"/>
+    </net>
+    <net code="80" name="Net-(K6-Pad4)">
+      <node ref="K6" pin="4"/>
+    </net>
+    <net code="81" name="Net-(K6-Pad3)">
+      <node ref="K6" pin="3"/>
+    </net>
+    <net code="82" name="Net-(K6-Pad2)">
+      <node ref="K6" pin="2"/>
+    </net>
+    <net code="83" name="Net-(K6-Pad1)">
+      <node ref="K6" pin="1"/>
+    </net>
+    <net code="84" name="Net-(K5-Pad6)">
+      <node ref="K5" pin="6"/>
+    </net>
+    <net code="85" name="Net-(K5-Pad5)">
+      <node ref="K5" pin="5"/>
+    </net>
+  </nets>
+</export>
